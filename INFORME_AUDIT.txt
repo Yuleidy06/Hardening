@@ -1,0 +1,46 @@
+# Informe CIS Hardening (AUDIT)
+Fecha: 2026-11-08_17-51-22
+
+
+## R1 (10.9.49.1)
+
+| Regla | Descripcion | Estado |
+|---|---|---|
+| 1.1 | Cifrar las contrasenas en la configuracion | FAIL |
+| 1.2 | Usar 'enable secret' (no 'enable password') | PASS |
+| 2.1 | Deshabilitar el servidor HTTP | FAIL |
+| 2.2 | Deshabilitar el servidor HTTPS si no se usa | FAIL |
+| 2.3 | Deshabilitar CDP globalmente | FAIL |
+| 2.4 | Deshabilitar 'ip source-route' | FAIL |
+| 3.1 | Usar SSH version 2 | PASS |
+| 3.2 | Permitir solo SSH en las lineas VTY (sin Telnet) | FAIL |
+| 3.3 | Configurar exec-timeout en consola y VTY | FAIL |
+| 4.1 | Proteccion contra fuerza bruta (login block-for) | FAIL |
+| 4.2 | Habilitar logging en buffer | FAIL |
+| 4.3 | Marcas de tiempo en los logs | PASS |
+| 5.1 | Banner de aviso legal | FAIL |
+| 5.2 | Longitud minima de contrasena | FAIL |
+
+**Cumple: 3/14 reglas.**
+
+## SW1 (10.9.49.2)
+
+| Regla | Descripcion | Estado |
+|---|---|---|
+| 1.1 | Cifrar las contrasenas en la configuracion | FAIL |
+| 1.2 | Usar 'enable secret' (no 'enable password') | PASS |
+| 2.1 | Deshabilitar el servidor HTTP | FAIL |
+| 2.2 | Deshabilitar el servidor HTTPS si no se usa | FAIL |
+| 2.3 | Deshabilitar CDP globalmente | FAIL |
+| 2.4 | Deshabilitar 'ip source-route' | FAIL |
+| 3.1 | Usar SSH version 2 | PASS |
+| 3.2 | Permitir solo SSH en las lineas VTY (sin Telnet) | FAIL |
+| 3.3 | Configurar exec-timeout en consola y VTY | FAIL |
+| 4.1 | Proteccion contra fuerza bruta (login block-for) | FAIL |
+| 4.2 | Habilitar logging en buffer | FAIL |
+| 4.3 | Marcas de tiempo en los logs | PASS |
+| 5.1 | Banner de aviso legal | PASS |
+| 5.2 | Longitud minima de contrasena | FAIL |
+
+**Cumple: 4/14 reglas.**
+

@@ -1,0 +1,366 @@
+
+                             GNU GRUB  version 2.00
+
+ +--------------------------------------------------------------------------+
+ |IOSv: flash0:vios_l2-adventerprisek9-m (hd0,msdos1)                       |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ +--------------------------------------------------------------------------+
+
+      Use the ^ and v keys to select which entry is highlighted.
+      Press enter to boot the selected OS, `e' to edit the commands
+      before booting or `c' for a command-line. ESC to return
+      previous menu.
+   The highlighted entry will be executed automatically in 0s.
+  Booting `IOSv: flash0:vios_l2-adventerprisek9-m (hd0,msdos1)'
+
+Booted IOSv. Boot args: [/vios_l2-adventerprisek9-m]
+
+Smart Init is enabled
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco IOSv () processor (revision 1.0) with 673025K/111616K bytes of memory.
+Processor board ID 9CXN1JBWKDF
+8 Gigabit Ethernet interfaces
+DRAM configuration is 72 bits wide with parity disabled.
+256K bytes of non-volatile configuration memory.
+4194288K bytes of ATA System CompactFlash 0 (Read/Write)
+0K bytes of ATA CompactFlash 1 (Read/Write)
+0K bytes of ATA CompactFlash 2 (Read/Write)
+0K bytes of ATA CompactFlash 3 (Read/Write)
+
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:01.322: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:01.617: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Nov  8 20:42:15.253: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+*Nov  8 20:42:18.290: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to reset
+*Nov  8 20:42:18.290: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to reset
+*Nov  8 20:42:18.291: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to reset
+*Nov  8 20:42:18.291: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to reset
+*Nov  8 20:42:18.291: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to reset
+*Nov  8 20:42:18.292: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to reset
+*Nov  8 20:42:18.292: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to reset
+*Nov  8 20:42:18.761: %SYS-5-CONFIG_I: Configured from memory by console
+*Nov  8 20:42:19.359: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Nov  8 20:42:19.360: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Nov  8 20:42:19.361: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Nov  8 20:42:19.361: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to up
+*Nov  8 20:42:19.361: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
+*Nov  8 20:42:19.362: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to up
+*Nov  8 20:42:19.362: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to up
+*Nov  8 20:42:19.362: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to up
+*Nov  8 20:42:19.862: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+*Nov  8 20:42:20.473: %LINK-3-UPDOWN: Interface GigabitEthernet1/3, changed state to down
+*Nov  8 20:42:20.474: %LINK-3-UPDOWN: Interface GigabitEthernet1/2, changed state to down
+*Nov  8 20:42:20.474: %LINK-3-UPDOWN: Interface GigabitEthernet1/1, changed state to down
+*Nov  8 20:42:20.475: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to down
+*Nov  8 20:42:20.476: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Nov  8 20:42:20.476: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to down
+*Nov  8 20:42:20.477: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Nov  8 20:42:20.479: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Nov  8 20:42:20.541: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20200924:215240) [sweickge-sep24-2020-l2iol-release 135]
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Tue 29-Sep-20 11:53 by sweickge
+*Nov  8 20:42:20.625: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+*Nov  8Failed to genera 20:42:20.629: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Nov  8 20:42:21.661: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to down
+*Nov  8 20:42:21.662: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to down
+*Nov  8 20:42:21.662: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+*Nov  8 20:42:21.663: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
+*Nov  8 20:42:21.664: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Nov  8 20:42:21.664: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to downte persistent self-signed certificate.
+    Secure server will use temporary self-signed certificate.
+
+*Nov  8 20:44:18.227: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verification
+*Nov  8 21:38:20.382: %SSH-3-NO_MATCH: No matching kex algorithm found: client curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,ext-info-c,kex-strict-c-v00@openssh.com server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+SW1>en
+Password:
+SW1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#ip ssh dh min size 2048
+SW1(config)#end
+SW1#wr
+Building configuration...
+
+*Nov  8 21:41:03.693: %SYS-5-CONFIG_I: Configured from console by consoleCompressed configuration from 3240 bytes to 1913 bytes[OK]
+*Nov  8 21:41:10.281: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Nov  8 21:41:11.070: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+SW1#
+*Nov  8 21:41:16.392: %SSH-3-NO_MATCH: No matching kex algorithm found: client curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,ext-info-c,kex-strict-c-v00@openssh.com server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+*Nov  8 21:45:25.669: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:25.826: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:25.998: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:26.141: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:26.296: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:26.488: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:26.730: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:26.951: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:27.083: %SYS-5-LOG_CONFIG_CHANGE: Buffer logging: level debugging, xml disabled, filtering disabled, size (64000)
+*Nov  8 21:45:27.145: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:27.321: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.9.49.21)
+*Nov  8 21:45:31.427: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Nov  8 21:45:32.189: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SW1 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+SW1>EN
+Password:
+SW1#   enable
+SW1#   terminal length 0
+SW1#   show running-config
+Building configuration...
+
+Current configuration : 3382 bytes
+!
+! Last configuration change at 21:45:27 UTC Sun Nov 8 2026 by admin
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+!
+hostname SW1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+logging buffered 64000
+enable secret 5 $1$yb56$HalneakRHuVVTMCPuvIny.
+!
+username admin privilege 15 secret 5 $1$fg4o$W3sCiPivMhgdqMTw9tAYh/
+no aaa new-model
+!
+!
+!
+!
+!
+no ip source-route
+!
+!
+!
+no ip domain-lookup
+ip domain-name lab.local
+ip cef
+login block-for 120 attempts 3 within 60
+no ipv6 cef
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+no cdp run
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ negotiation auto
+!
+interface GigabitEthernet0/1
+ negotiation auto
+!
+interface GigabitEthernet0/2
+ negotiation auto
+!
+interface GigabitEthernet0/3
+ negotiation auto
+!
+interface GigabitEthernet1/0
+ negotiation auto
+!
+interface GigabitEthernet1/1
+ negotiation auto
+!
+interface GigabitEthernet1/2
+ negotiation auto
+!
+interface GigabitEthernet1/3
+ negotiation auto
+!
+interface Vlan1
+ ip address 10.9.49.2 255.255.255.0
+!
+ip default-gateway 10.9.49.1
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip ssh version 2
+ip ssh dh min size 2048
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+!
+snmp-server community RO_20220949 RO
+snmp-server location Laboratorio-ITLA
+snmp-server contact Yuleidy-20220949
+!
+control-plane
+!
+banner exec ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner incoming ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+banner login ^C
+IOSv - Cisco Systems Confidential -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+^C
+!
+line con 0
+ exec-timeout 5 0
+line aux 0
+line vty 0 4
+ exec-timeout 5 0
+ login local
+ transport input ssh
+!
+!
+end
+
+SW1#
+
